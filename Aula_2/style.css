@@ -1,0 +1,103 @@
+.principal {
+    background: #7e889b;
+    padding: 30px;
+}
+
+.topnav {
+    overflow: hidden;
+    background: #7e889b; 
+    display: flex;
+    font-weight: 800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 5%;
+}
+
+.topnav a {
+    float: left;
+    color: #0c0101;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 800;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 5%;
+  }
+
+.topnav a:hover {
+    font-weight: 800;
+    height: 1%;
+    border-radius: 10px;
+    background-color: #ddd;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 5%;
+}
+
+.topnav a.active {
+    height: 1%;
+    background-color: #c90909;
+    color: rgb(14, 1, 1);
+    font-weight: 800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 5%;
+}
+
+.titulo-principal {
+    text-decoration: black solid;
+    padding: 10px;
+    background: #f1f3f7;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: #eff1f3;
+}
+
+.itens {
+    font-style: italic;
+    text-align: left;
+}
+
+.beneficios {
+    background: #7e889b;
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    text-align: justify;
+}
+
+ul {
+    display: inline-block;
+    vertical-align:top;
+    width: 20%;
+    margin-right: 15%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+.rodape{
+    text-align: center;
+    padding: 3px;
+    background: #7e889b;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+}

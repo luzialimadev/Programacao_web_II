@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ATIVIDADE</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="Exc_6.css">
+</head>
+
+<header class="topo">
+    <h1 class="X">Adulto</h1><h1>X</h1>
+</header>
+
+<body>
+    <div class="copo">
+        <div class="prato">
+            <form>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+                <br><br>
+                <input type="text" id="telefone" placeholder="Digite seu telefone">
+                <br><br>
+                <input type="number" id="idade" placeholder="Digite sua idade">
+                <br><br>
+                <button class="w3-btn w3-round-xlarge" onclick="confirmar()">Entrar</button>
+                <br><br>
+            </form>
+        </div>
+    </div>
+    
+<script>
+    function confirmar(){
+        idade = document.getElementById("idade").value;
+        nome = document.getElementById("nome").value;
+
+        if(idade < 18){
+            alert("Saia daqui, seu menor de idade safado!")
+        }else{
+            alert("Bem vindo " + nome + " seu (sua) tarado (a)!")
+
+        }
+    }
+</script>
+    <footer class="rodape">
+        <p>2022 &copy; Luzia Lima</p>
+        <p>HTML|CSS|JavaScript</p>
+    </footer>
+</body>
+</html>
